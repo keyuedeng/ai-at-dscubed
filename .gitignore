@@ -106,6 +106,7 @@ env.bak/
 venv.bak/
 .env.development
 .env.production
+brain/postgres/karen/.env
 
 # Spyder project settings
 .spyderproject
