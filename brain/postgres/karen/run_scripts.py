@@ -1,11 +1,5 @@
 import psycopg2
 
-DB_HOST = "darcydb.crgk48smefvn.ap-southeast-2.rds.amazonaws.com"
-DB_PORT = "5432"
-DB_NAME = "postgres"
-DB_USER = "postgres"
-DB_PASSWORD = "7crQ9MrrBC216QmgSB^S"
-
 def get_connection():
     conn = psycopg2.connect(
         host=DB_HOST,
